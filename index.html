@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="icon" href="news.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <nav>
+            <div class="navlogo">
+                <a href="">
+                    <img src="news.png" alt="brand logo">
+                </a>
+            </div>
+            <div class="navlist">
+                <a href="" class="nav_item">Sports</a>
+                <a href="" class="nav_item">Finance</a>
+                <a href="" class="nav_item">Politics</a>
+                <a href="" class="nav_item">Movies</a>
+                <a href="" class="nav_item">Jobs</a>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search News ">
+                <button>Search</button>
+            </div>
+        </nav>
+
+        <div id="content">
+            <div class="card-container">
+
+            </div>
+        </div>
+        <template id="template-card">
+            <div class="card">
+                <div class="card-image">
+                    <img src="virat.webp" id="card-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="card-title">This is Title</h3>
+                    <h6 id="card-agency">News Agency - Date</h6>
+                    <p id="card-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa quas accusamus, minima porro velit autem veniam quibusdam quaerat repellendus explicabo.</p>
+                </div>
+                <p id="pForurl">urlOfPost</p>
+            </div>
+        </template>
+
+    </main>
+
+    
+
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
